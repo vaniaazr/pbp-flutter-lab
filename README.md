@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 **Vania Azria Wardani**  
 **2106650380**  
 **PBP C**
