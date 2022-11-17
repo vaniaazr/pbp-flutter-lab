@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 **Vania Azria Wardani**  
 **2106650380**  
 **PBP C**
 
 # Tugas 7 - counter_7 
+=======
+# Tugas 7 - counter_7 
+
+**Vania Azria Wardani**  
+**2106650380**  
+**PBP C**
+>>>>>>> c1b66e7ab1f2c22faa086e80f2a746cd1b13454b
 
 # Answer
 
@@ -37,6 +45,7 @@ Const dan final adalah keyword untuk membuat immutable variable pada Dart.
 4. Menambahkan method _decrementCounter. Method ini akan mengurangi nilai counter dengan 1. _decrementCounter diatur sebagai onPressed pada tombol decrement.
 5. Memanfaatkan condition. Jika counter ganjil atau counter % 2 == 1, maka akan menampilkan teks GANJIL berwarna biru. Jika counter genap atau counter % 2 == 0, maka akan menampilkan teks GENAP berwarna merah. 
 6. Mengerjakan bonus dengan memanfaatkan condition. Apabila counter != 0, akan ditampilkan tombol decrement.
+<<<<<<< HEAD
 
 # Tugas 8 - Flutter Form 
 
@@ -70,3 +79,5 @@ Navigator bekerja dengan prinsip Last In First Out atau LIFO seperti stack. Deng
 4. Mengisi form.dart, yaitu form field yang akan diisi user untuk menambahkan budgetnya. Widget yang digunakan adalah TextFormField untuk input judul dan nominal, DropdownButtoField untuk input jenis budget, dan TextButton untuk menyimpan input pada list budget. Sebagai tambahan bonus, terdapat widget showDatePicker untuk input date budget.
 5. Mengisi data_budget.dart untuk mengambil data pada list budget dan menampilkannya pada halaman data budget
 6. Melakukan add, commit, push
+=======
+>>>>>>> c1b66e7ab1f2c22faa086e80f2a746cd1b13454b
