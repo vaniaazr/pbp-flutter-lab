@@ -89,11 +89,11 @@ Ya, bisa. Data tersebut akan kita dapatkan dalam bentuk Map<String, dynamic>. Na
 8. Checkbox : Widget untuk menampilkan checkbox pada aplikasi. 
 
 ## **Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter**
-1. Membentuk model yang sesuai dengan membentuk class baru dan atribut-atributnya
-2. Menggunakan method fromJson untuk mengubah data JSON menjadi objek model. 
-3. Membuat Map untuk mengubah objek model sesuai dengan format JSON
-4. Membentuk async function untuk melakukan fetch data JSON dari internet dengan bantuan HTTP
-5. Menampilkan data yang direturn oleh function tersebut pada page
+1. Membentuk model yang sesuai dengan membentuk class baru beserta atribut-atributnya.
+2. Menerapkan method fromJson untuk mengubah data JSON menjadi objek model. 
+3. Membentuk Map untuk mengubah objek model sesuai dengan format JSON.
+4. Membentuk async function untuk melakukan fetch data JSON dari internet dengan bantuan HTTP.
+5. Menampilkan data yang dikembalikan async function pada page.
 
 ## **Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas**
 1. Membentuk model bernama MyWatchList pada mywatchlist.dart.
