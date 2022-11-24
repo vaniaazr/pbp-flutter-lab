@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Tugas 7 - counter_7 
-
-**Vania Azria Wardani**  
-**2106650380**  
-**PBP C**
-=======
 **Vania Azria Wardani**  
 **2106650380**  
 **PBP C**
 
 # Tugas 7 - counter_7 
->>>>>>> 89f454c7fa5021b5e9b1377ec372bfad1dac3f80
 
 # Answer
 
@@ -77,8 +69,38 @@ Navigator bekerja dengan prinsip Last In First Out atau LIFO seperti stack. Deng
 3. Untuk setiap file, tambahkan ketiga drawer yang disebutkan pada poin satu
 4. Mengisi form.dart, yaitu form field yang akan diisi user untuk menambahkan budgetnya. Widget yang digunakan adalah TextFormField untuk input judul dan nominal, DropdownButtoField untuk input jenis budget, dan TextButton untuk menyimpan input pada list budget. Sebagai tambahan bonus, terdapat widget showDatePicker untuk input date budget.
 5. Mengisi data_budget.dart untuk mengambil data pada list budget dan menampilkannya pada halaman data budget
-<<<<<<< HEAD
 6. Melakukan add, commit, push
-=======
-6. Melakukan add, commit, push
->>>>>>> 89f454c7fa5021b5e9b1377ec372bfad1dac3f80
+
+# Tugas 9 - Integrasi Web Service pada Flutter
+
+# Answer
+
+## **Apakah bisa kita melakukan pengambilan data JSON tanpa membuat model terlebih dahulu? Jika iya, apakah hal tersebut lebih baik daripada membuat model sebelum melakukan pengambilan data JSON?**
+Ya, bisa. Data tersebut akan kita dapatkan dalam bentuk Map<String, dynamic>. Namun, cara ini bukanlah langkah terbaik. Hal ini karena kode yang kita buat menjadi sulit dibaca dan dipahami akibat value-nya yang dinamis.
+
+## **Sebutkan widget apa saja yang kamu pakai di proyek kali ini dan jelaskan fungsinya**
+1. Text : Widget untuk menampilkan teks pada aplikasi.
+2. Padding : Widget untuk memberikan spasi di sekitar child-nya.
+3. Row : Widget ini memiliki properti children, artinya bisa diisi oleh banyak widget. Widget mengarahkan children-nya secara horizontal.
+4. Column : Widget ini memiliki properti children, artinya bisa diisi oleh banyak widget. Widget mengarahkan children-nya secara vertikal.
+5. Container : Widget yang berperan sebagai container.
+6. ListView : Widget yang berperan sebagai wadah untuk menampung widget dan dapat dibuat banyak secara otomatis dengan bantuan builder.
+7. ListTile : Widget untuk menampilkan judul-judul film. Memiliki fungsi yang serupa dengan card.
+8. Checkbox : Widget untuk menampilkan checkbox pada aplikasi. 
+
+## **Jelaskan mekanisme pengambilan data dari json hingga dapat ditampilkan pada Flutter**
+1. Membentuk model yang sesuai dengan membentuk class baru dan atribut-atributnya
+2. Menggunakan method fromJson untuk mengubah data JSON menjadi objek model. 
+3. Membuat Map untuk mengubah objek model sesuai dengan format JSON
+4. Membentuk async function untuk melakukan fetch data JSON dari internet dengan bantuan HTTP
+5. Menampilkan data yang direturn oleh function tersebut pada page
+
+## **Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas**
+1. Membentuk model bernama MyWatchList pada mywatchlist.dart.
+2. Membentuk fungsi bernama fetchWatchList pada fetch.dart yang berfungsi untuk membantu menampilkan data JSON pada page.
+3. Membentuk class bernama WatchListPage yang akan menampilkan judul-judul film dari model.
+4. Menambahkan checkbox pada setiap ListTile bagian judul.
+5. Menambahkan border pada ListTile. Warna pada border disesuaikan dengan status tontonan film.
+6. Membentuk class bernama WatchListDetail yang akan menampilkan detail dari film. Detail yang ditampilkan adalah film yang di-klik.
+7. Menambahkan route menuju halaman My Watch List pada drawer.
+8. Melakukan add, commit, push.
