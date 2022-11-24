@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Tugas 7 - counter_7 
 
 **Vania Azria Wardani**  
 **2106650380**  
 **PBP C**
+=======
+**Vania Azria Wardani**  
+**2106650380**  
+**PBP C**
+
+# Tugas 7 - counter_7 
+>>>>>>> 89f454c7fa5021b5e9b1377ec372bfad1dac3f80
 
 # Answer
 
@@ -69,4 +77,8 @@ Navigator bekerja dengan prinsip Last In First Out atau LIFO seperti stack. Deng
 3. Untuk setiap file, tambahkan ketiga drawer yang disebutkan pada poin satu
 4. Mengisi form.dart, yaitu form field yang akan diisi user untuk menambahkan budgetnya. Widget yang digunakan adalah TextFormField untuk input judul dan nominal, DropdownButtoField untuk input jenis budget, dan TextButton untuk menyimpan input pada list budget. Sebagai tambahan bonus, terdapat widget showDatePicker untuk input date budget.
 5. Mengisi data_budget.dart untuk mengambil data pada list budget dan menampilkannya pada halaman data budget
+<<<<<<< HEAD
 6. Melakukan add, commit, push
+=======
+6. Melakukan add, commit, push
+>>>>>>> 89f454c7fa5021b5e9b1377ec372bfad1dac3f80
